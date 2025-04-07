@@ -16,11 +16,11 @@ int main(){
     printf ("Desafio Xadrez !\n");
     printf("Digite as informações da primeira carta:\n");
     printf("Estado (A a H): ");
-    scanf(" %c", &estado1); // O espaço antes do %c serve para limpar o buffer do teclado
+    scanf(" %c", &estado1); 
     printf("Código da carta (ex: A01): ");
     scanf("%s", codigo1);
     printf("Nome da cidade: ");
-    scanf(" %s", cidade1); // A leitura do nome da cidade pode ter espaços
+    scanf(" %s", cidade1); 
     printf("População: ");
     scanf("%d", &populacao1);
     printf("Área (em km²): ");
